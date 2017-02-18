@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="author" content="Ben Howdle and Dan Matthew">
+   <meta name="description" content="A responsive movie poster grabber">
+   <title>Find Fav Poster</title>
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+   <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css" />
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Jacques+Francois+Shadow" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+   <header>
+      <h1>Fav Movie Poster</h1>
+      <section class="search">
+      <div class="search-container">
+         <span class="form clearfix">
+            <span class="search-greaterbox">
+               <i class="fa fa-search search-icon" aria-hidden="true"></i>
+               <input class="search-box" type="text" placeholder="Enter a movie title" id="term" />
+            </span>
+            <button class="search-button" id="search">Find a poster</button>
+         </span>
+      </div>
+      </section>
+   </header>
+
+   <section id="poster" class="poster">
+      <h2 >What's your life time favotire movie?</h2>
+      <div class="img-box">
+         <img class="default-img" src="chaplin_gradient.png" alt="chaplin_gradient">
+      </div>
+   </section>
+   <footer>
+      <p class="credit">Created by Yas</p>
+   </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
